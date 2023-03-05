@@ -1,0 +1,46 @@
+.ablock{
+    display: flex;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-around;
+    color: rgb(193, 148, 148);
+    border: 2px solid red;
+    background-color: red;
+
+}
+
+
+.bblock
+{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid blue;
+    background-color: blue;
+}
+
+
+.cblock{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid gray;
+    background-color: gray;
+    
+}
+.cblock ul li a{
+    text-decoration: none;
+}
+.dblock{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid pink;
+    background-color: beige;
+    
+
+}
+.eblock{
+    background-color: cadetblue;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+     color: black;
+}
