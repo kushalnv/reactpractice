@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
+import Nav from  "./Nav"
+import "./global.css"
 const App=()=>{
     return(
-        <>
-        <div>App</div>
-        <div>asads</div>
-        </>
+    <Nav/>
     )
 }
 export default App

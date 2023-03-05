@@ -1,0 +1,29 @@
+.Block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(96, 120, 112);
+    color: white;
+    margin: auto;
+    
+}
+
+ul{
+    display: flex;
+    width:300px;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+img{
+    height: 50px;
+    width:200px;
+    padding-top: 20px;
+}
