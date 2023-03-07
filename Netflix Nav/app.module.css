@@ -1,0 +1,30 @@
+.aBlock{
+    
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(193, 148, 148);
+    border: 5px solid red;
+    background-color: black;
+    display:flex;
+
+}
+
+nav ul li  {
+    display: flex;
+    justify-content: space-between;
+}
+.UL{
+    display: flex;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+li{
+    justify-content: space-between;
+    padding-right: 20px;
+}
+button{
+    margin:auto;
+ color: aliceblue;
+ background-color: brown;
+}
