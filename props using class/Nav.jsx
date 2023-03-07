@@ -1,7 +1,7 @@
 import React from "react";
-import {components} from 'react';
+import {component} from 'react';
 
-class Nav extends components
+class Nav extends component
 {
     render()
     {
