@@ -1,0 +1,12 @@
+.mainblock{
+    border: 2px solid red;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parentblock{
+    display: flex;
+    justify-content: space-evenly;
+}
