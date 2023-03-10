@@ -5,6 +5,7 @@ const Players=(props)=>{
 
     return(
         <div className="parentblock">
+            <section className="sec">
             <div className="mainblock">
                 <h1>{props.payload[0].player}</h1>
                  <h2>{props.payload[0].team}</h2>
@@ -15,6 +16,7 @@ const Players=(props)=>{
                  <h2>{props.payload[1].team}</h2>
                  <h3>{props.payload[1].skills}</h3>
             </div>
+            
             <div className="mainblock">
                 <h1>{props.payload[2].player}</h1>
                  <h2>{props.payload[2].team}</h2>
@@ -30,7 +32,10 @@ const Players=(props)=>{
                  <h2>{props.payload[4].team}</h2>
                  <h3>{props.payload[4].skills}</h3>
             </div>
-            <div className="mainblock">
+            
+            
+    
+             <div className="mainblock">  
                 <h1>{props.payload[5].player}</h1>
                  <h2>{props.payload[5].team}</h2>
                  <h3>{props.payload[5].skills}</h3>
@@ -50,7 +55,9 @@ const Players=(props)=>{
                  <h2>{props.payload[8].team}</h2>
                  <h3>{props.payload[8].skills}</h3>
             </div>
-            <div className="mainblock">
+            </section>
+            <section className="sec">
+             <div className="mainblock"> 
                 <h1>{props.payload[9].player}</h1>
                  <h2>{props.payload[9].team}</h2>
                  <h3>{props.payload[9].skills}</h3>
@@ -90,11 +97,14 @@ const Players=(props)=>{
                  <h2>{props.payload[16].team}</h2>
                  <h3>{props.payload[16].skills}</h3>
             </div>
-            <div className="mainblock">
+          
+             <div className="mainblock"> 
                 <h1>{props.payload[17].player}</h1>
                  <h2>{props.payload[17].team}</h2>
                  <h3>{props.payload[17].skills}</h3>
             </div>
+            </section>
+            <section className="sec">
             <div className="mainblock">
                 <h1>{props.payload[18].player}</h1>
                  <h2>{props.payload[18].team}</h2>
@@ -140,6 +150,8 @@ const Players=(props)=>{
                  <h2>{props.payload[26].team}</h2>
                  <h3>{props.payload[26].skills}</h3>
             </div>
+            </section>
+             <section className="sec"> 
             <div className="mainblock">
                 <h1>{props.payload[27].player}</h1>
                  <h2>{props.payload[27].team}</h2>
@@ -175,6 +187,7 @@ const Players=(props)=>{
                  <h2>{props.payload[33].team}</h2>
                  <h3>{props.payload[33].skills}</h3>
             </div>
+            
             <div className="mainblock">
                 <h1>{props.payload[34].player}</h1>
                  <h2>{props.payload[34].team}</h2>
@@ -185,6 +198,8 @@ const Players=(props)=>{
                  <h2>{props.payload[35].team}</h2>
                  <h3>{props.payload[35].skills}</h3>
             </div>
+            </section>
+           <section className="sec">
             <div className="mainblock">
                 <h1>{props.payload[36].player}</h1>
                  <h2>{props.payload[36].team}</h2>
@@ -195,24 +210,18 @@ const Players=(props)=>{
                  <h2>{props.payload[37].team}</h2>
                  <h3>{props.payload[37].skills}</h3>
             </div>
-            <div className="mainblock">
+             <div className="mainblock"> 
                 <h1>{props.payload[38].player}</h1>
                  <h2>{props.payload[38].team}</h2>
                  <h3>{props.payload[38].skills}</h3>
             </div>
-            <div className="mainblock">
+           
+              <div className="mainblock"> 
                 <h1>{props.payload[39].player}</h1>
                  <h2>{props.payload[39].team}</h2>
                  <h3>{props.payload[39].skills}</h3>
             </div>
-            <div className="mainblock">
-                <h1>{props.payload[40].player}</h1>
-                 <h2>{props.payload[40].team}</h2>
-                 <h3>{props.payload[40].skills}</h3>
-            </div>
-            
-            
-            
+            </section>
         </div>
     )
 }
