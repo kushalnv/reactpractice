@@ -1,0 +1,66 @@
+.mainblock{
+    display: flex;
+    justify-content: center;
+    color: red;
+    
+    font-size: 100px;
+
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+.btn1{
+    color: white;
+    width: 400px;
+    font-size: 60px;
+    font-weight: 400;
+    display: flex;
+    margin-left: 20px;
+    background-color: green;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn2{
+    width: 400px;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    display: flex;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: red;
+    cursor: pointer;
+}
+.btn3{
+    width: 400px;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    display: flex;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: blue;
+    cursor: pointer;
+}
+.btn1{
+    transition: 0.1s;
+}
+.btn1:hover{
+    background-color: black;
+}
+.btn2{
+    transition: 0.1s;
+}
+.btn2:hover{
+    background-color: black;
+}
+.btn3{
+    transition: 0.1s;
+}
+.btn3:hover{
+    background-color: black;
+}
