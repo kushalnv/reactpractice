@@ -1,9 +1,11 @@
-import React from "react";
-import Nav from  "./Nav"
-import "./global.css"
-const App=()=>{
-    return(
-    <Nav/>
-    )
+import React from 'react'
+import Createpost from './Createpost';
+
+const App = () => {
+
+  return (
+    <Createpost/>
+  )
 }
+
 export default App
